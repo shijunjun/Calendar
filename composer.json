@@ -1,0 +1,23 @@
+{
+    "name": "shijunjun/calendar",
+    "description": "农历（阴历）转阳历（公历）,以及相关节日的查询",
+    "type": "library",
+    "keywords": ["calendar","chinese","农历","中国农历"],
+    "require": {
+        "php": ">=5.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shijunjun",
+            "email": "jun_5197@163.com",
+            "homepage": "https://github.com/shijunjun"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "shijunjun\\Calendar\\": "src/"
+        }
+    }
+}
